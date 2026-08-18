@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  /* ===================================== */
+  /*               NAVBAR                  */
+  /* ===================================== */
+}
+body nav {
+  padding: 40px 10px;
+}
+body nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body nav .navbar .pages {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+body nav .navbar .pages li .home {
+  color: #6F66EE;
+}
+body nav .navbar .pages li a {
+  font-family: "Ubuntu", sans-serif;
+  color: #111111;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+body nav .navbar .pages li a:hover {
+  color: #C3BFF8;
+}
+body {
+  /* ===================================== */
+  /*               SECTION1                */
+  /* ===================================== */
+}
+body .property-section .property-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../assets/image/image.png);
+  height: 700px;
+  border-radius: 50px;
+}
+body .property-section .property-container .property-text {
+  padding: 130px 30px;
+}
+body .property-section .property-container .property-text h1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #111111;
+  font-weight: 400;
+  font-size: 4.5rem;
+}
+body .property-section .property-container .property-text p {
+  padding-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-size: 1.125rem;
+}
+body .property-section .property-container .property-text p a {
+  color: #111111;
+  font-weight: 700;
+  text-decoration: none;
+}
+body .property-section .property-container .property-text div {
+  margin-top: 30px;
+  background-color: #F2F2F2;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+}
+body .property-section .property-container .property-text div input {
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 140px 10px 12px;
+  outline: none;
+}
+body .property-section .property-container .property-text div button {
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body {
+  /* ===================================== */
+  /*               SECTION2                */
+  /* ===================================== */
+}
+body .countries-section {
+  background-color: #F0EFFD;
+  padding: 70px 0;
+  margin-top: 70px;
+}
+body .countries-section .countries-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .countries-section .countries-container .countries-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16rem;
+}
+body .countries-section .countries-container .countries-flex .countries-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+body .countries-section .countries-container .countries-flex .countries-img p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+body .countries-section .countries-container .countries-flex .countries-img .countries-p {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body {
+  /* ===================================== */
+  /*               SECTION3                */
+  /* ===================================== */
+}
+body .rent-section .rent-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .rent-section .rent-container h1 {
+  padding-top: 80px;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #111111;
+  font-weight: 700;
+}
+body .rent-section .rent-container .rent-p {
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-size: 19px;
+  font-weight: 400;
+}
+body .rent-section .rent-container .rent-p a {
+  text-decoration: none;
+  color: #6F66EE;
+}
+body .rent-section .rent-container button {
+  margin-top: 24px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body .rent-section .rent-container .rent-flex {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card1 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card1 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card1 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card1 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card2 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy\ 2.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card2 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card2 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card2 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card3 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy\ 3.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card3 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card3 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card3 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card4 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy\ 4.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card4 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card4 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card4 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card5 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy\ 5.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card5 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card5 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card5 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card6 {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/image/image\ copy\ 6.png);
+  border-radius: 20px;
+}
+body .rent-section .rent-container .rent-flex .rent-card6 div {
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 150px 20px 15px;
+}
+body .rent-section .rent-container .rent-flex .rent-card6 div h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+}
+body .rent-section .rent-container .rent-flex .rent-card6 div p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+}
+body {
+  /* ===================================== */
+  /*               SECTION4                */
+  /* ===================================== */
+}
+body .option-section .option-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .option-section .option-container .option-flex {
+  display: flex;
+  gap: 35px;
+  margin-top: 120px;
+}
+body .option-section .option-container .option-flex .option-card {
+  background-color: #F0EFFD;
+  width: 46%;
+  padding: 30px 40px;
+  border-radius: 30px;
+}
+body .option-section .option-container .option-flex .option-card h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+body .option-section .option-container .option-flex .option-card .rent-p {
+  padding-top: 30px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-weight: 400;
+}
+body .option-section .option-container .option-flex .option-card .rent-p a {
+  text-decoration: none;
+  color: #6F66EE;
+}
+body .option-section .option-container .option-flex .option-card h3 {
+  padding-top: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #111111;
+}
+body .option-section .option-container .option-flex .option-card p {
+  padding-top: 20px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-weight: 400;
+}
+body .option-section .option-container .option-flex .option-img img {
+  object-fit: cover;
+  width: 560px;
+  height: 630px;
+  border-radius: 30px;
+}
+body {
+  /* ===================================== */
+  /*               SECTION5                */
+  /* ===================================== */
+}
+body .customer-section {
+  margin-top: 80px;
+  background-color: #FBECED;
+}
+body .customer-section .customer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+body .customer-section .customer-container .cutomer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .customer-section .customer-container .cutomer-flex .customer-text {
+  text-align: center;
+}
+body .customer-section .customer-container .cutomer-flex .customer-text h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  color: #111111;
+}
+body .customer-section .customer-container .cutomer-flex .customer-text p {
+  padding-top: 30px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  color: #111111;
+}
+body {
+  /* ===================================== */
+  /*               SECTION6                */
+  /* ===================================== */
+}
+body .apartment-section .apartment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .apartment-section .apartment-container h1 {
+  padding-top: 80px;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #111111;
+  font-weight: 700;
+}
+body .apartment-section .apartment-container .rent-p {
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-size: 19px;
+  font-weight: 400;
+}
+body .apartment-section .apartment-container .rent-p a {
+  text-decoration: none;
+  color: #6F66EE;
+}
+body .apartment-section .apartment-container button {
+  margin-top: 24px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body .apartment-section .apartment-container .apartment-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body .apartment-section .apartment-container .apartment-flex .apartment-card {
+  margin-top: 50px;
+  background-color: #F0EFFD;
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+body .apartment-section .apartment-container .apartment-flex .apartment-card img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+body .apartment-section .apartment-container .apartment-flex .apartment-card p {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111111;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  /* ===================================== */
+  /*               SECTION7                */
+  /* ===================================== */
+}
+body .brend-section .brend-container {
+  max-width: 1100px;
+  margin: 180px auto;
+}
+body .brend-section .brend-container .brend-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .brend-section .brend-container .brend-flex .brend-img img {
+  width: 100px;
+}
+body {
+  /* ===================================== */
+  /*               SECTION8                */
+  /* ===================================== */
+}
+body .option-section .option-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .option-section .option-container .option-flex {
+  display: flex;
+  gap: 35px;
+  margin-top: 120px;
+}
+body .option-section .option-container .option-flex .option-card {
+  background-color: #F0EFFD;
+  width: 46%;
+  padding: 30px 40px;
+  border-radius: 30px;
+}
+body .option-section .option-container .option-flex .option-card h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+body .option-section .option-container .option-flex .option-card .rent-p {
+  padding-top: 30px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-weight: 400;
+}
+body .option-section .option-container .option-flex .option-card .rent-p a {
+  text-decoration: none;
+  color: #6F66EE;
+}
+body .option-section .option-container .option-flex .option-card h3 {
+  padding-top: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #111111;
+}
+body .option-section .option-container .option-flex .option-card p {
+  padding-top: 20px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  font-weight: 400;
+}
+body .option-section .option-container .option-flex .option-img img {
+  object-fit: cover;
+  width: 560px;
+  height: 630px;
+  border-radius: 30px;
+}
+body {
+  /* ===================================== */
+  /*               SECTION9                */
+  /* ===================================== */
+}
+body .input-section {
+  margin-top: 100px;
+  background-color: #F0EFFD;
+  padding: 60px 0;
+}
+body .input-section .input-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .input-section .input-container .input-text {
+  color: #111111;
+}
+body .input-section .input-container .input-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+body .input-section .input-container .input-text p {
+  padding-top: 20px;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+}
+body .input-section .input-container .input-text .input-flex {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .input-section .input-container .input-text .input-flex h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+body .input-section .input-container .input-text .input-flex input {
+  outline: none;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  padding: 14px 16px;
+  border-radius: 20px;
+  width: 460px;
+  font-size: 16px;
+}
+body .input-section .input-container .input-text .input-flex button {
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body {
+  /* ===================================== */
+  /*               FOOTER                  */
+  /* ===================================== */
+}
+body footer {
+  background-color: #333333;
+  height: 100px;
+}
+body footer p {
+  padding-top: 50px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body footer p a {
+  font-size: 14px;
+  padding-left: 5px;
+  color: #C3BFF8;
+}
+
+/*# sourceMappingURL=style.css.map */
